@@ -59,8 +59,9 @@
 </head>
 <body>
     <h1>Reports Distribution System</h1>
-    <label for="datepicker">Select Date:</label>
-    <input type="text" id="datepicker">
+    <label for="statusSearch">Search by Status:</label>
+    <input type="text" id="datepicker" oninput="searchByStatus(this.value)">
+
     <br>
     <label for="statusSearch">Search by Status:</label>
     <input type="text" id="statusSearch" oninput="searchByStatus(this.value)">
